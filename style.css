@@ -828,7 +828,7 @@ display: none;    }
     }
 
     .banner-container button {
-        position: static;
+        position:absolute;
         bottom: -30%;
         left: 30%;
     }
