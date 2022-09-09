@@ -766,7 +766,9 @@ display: none;    }
         left: 1150px;
     }
 
-
+.active{
+    display: none;
+}
 }
 
 @media (max-width: 1024px) {
@@ -777,7 +779,6 @@ display: none;    }
         top: 8%;
         right: 0;
         text-align: center;
-       display: flex;
         position: absolute;
         background-color:var(--banner-background);
         z-index: 3;
@@ -828,7 +829,7 @@ display: none;    }
     }
 
     .banner-container button {
-        position:absolute;
+        position: absolute;
         bottom: -30%;
         left: 30%;
     }
