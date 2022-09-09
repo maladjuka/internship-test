@@ -777,7 +777,7 @@ display: none;    }
         top: 8%;
         right: 0;
         text-align: center;
-       display: block;
+       display: flex;
         position: absolute;
         background-color:var(--banner-background);
         z-index: 3;
